@@ -1,5 +1,5 @@
 import './VerticeEdges/Vertice'
-import './Vertice.Edges/Edges'
+import './VerticeEdges/Edges'
 void function Chen(){
    void Chen;this.cube2
    void Chen;this.cone2
