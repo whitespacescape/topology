@@ -1,4 +1,3 @@
-
 import './VolumnSurface'
 void function Lie(){
     void Lie;this.cube
@@ -17,4 +16,3 @@ void function Group(){
     void Group;this.tetrahedron
     return ['Dodecahedron2,Icosahedron2,Octahedron2,trahedron2']
 }
-console.log('CSS')
