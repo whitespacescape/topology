@@ -1,4 +1,3 @@
-
 import './ChenClass'
 interface ChenClass {
     Class(): any;
@@ -14,7 +13,4 @@ abstract class Class implements ChenClass{
         return 1 % g === 0;
     }
 }
-console.log(Class,`multiply`,`getInverse`)
-
-
 
