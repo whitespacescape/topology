@@ -1,6 +1,4 @@
-
-import '../Vector/Vector3D'
-import '../topolgy/CC/cylinder'
+import '../topolgy/Vertices/cylinder2'
 class Sphere {
     private center: Number;
     private radius: number;
@@ -16,5 +14,5 @@ class Sphere {
     }
 }
 let sphere = new Sphere['Vector3D'];
-console.log(`${sphere.SurfaceArea()}`);
-console.log(`${sphere.Volume()}`);
+console.log(`{sphere.SurfaceArea()}`);
+console.log(`{sphere.Volume()}`);
