@@ -21,5 +21,5 @@ constructor(baseWidth: number, baseLength: number, positionX: number, positionZ:
     
 }
 export const pyramid = new Pyramid(1, 1, 0, 0, 1);
-console.log(` ${pyramid.Volume()} cubic units`);
-console.log(`${pyramid.SurfaceArea()} square units`);
+console.log(`{pyramid.Volume()} cubic units`);
+console.log(`{pyramid.SurfaceArea()} square units`);
