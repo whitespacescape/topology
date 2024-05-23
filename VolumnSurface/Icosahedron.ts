@@ -1,7 +1,6 @@
 export function calculateIcosahedron(size: number): { vertices: number[]; length: number } {
     const edge = size;
     const phi = 1 / (1 + Math.sqrt(5))
-    console.log(phi)
     const cosPhi = -1 / 2;
     const sinPhi = Math.sqrt(6) / 2;
     const vertices = [
