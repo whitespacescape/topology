@@ -15,4 +15,4 @@ void function Vertices(lightcone:lightcone2) {
     }
     return [Vertices]
 }
-console.log('vertices')
+
