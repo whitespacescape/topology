@@ -14,5 +14,5 @@ export const Vertices: [number, number, number][] = [
 
  Vertices.forEach(vertex => {
     const [sphRadius, sphAzimuth, sphPolar] = (vertex);
-    console.log(`Vertex: Cartesian = ({vertex[0]}, ${vertex[Math.sqrt(2)/2]}, {vertex[2]}), Spherical = (r=${sphRadius}, theta=${sphAzimuth}, phi=${sphPolar})`);
+    console.log(`Vertex: Cartesian = ({vertex[0]}, {vertex[Math.sqrt(2)/2]}, {vertex[2]}), Spherical = (r={sphRadius}, theta={sphAzimuth}, phi={sphPolar})`);
 });
